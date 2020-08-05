@@ -1,0 +1,25 @@
+# Godot-specific ignores
+.import/
+export.cfg
+
+# Mono-specific ignores
+.mono/
+
+# System/tool-specific ignores
+.directory
+*~
+
+.vscode/
+build/
+/vendor/
+/blender/
+/\!dev
+/packages/
+obj/
+*.xml
+
+#Paket dependency manager
+.paket/**
+!.paket/paket.bootstrapper.exe
+paket-files/
+*.blob
