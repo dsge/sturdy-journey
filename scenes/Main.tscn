@@ -14,11 +14,12 @@ script = null
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform( 1, 0, 0, 0, 0.707107, 0.707107, 0, -0.707107, 0.707107, 0, 5.51225, 0 )
+shadow_enabled = true
 script = null
 
 [node name="Floor" type="MeshInstance3D" parent="."]
 mesh = SubResource( 1 )
-material/0 = null
+material/0 = ExtResource( 1 )
 script = null
 
 [node name="KinematicBody3D" parent="." instance=ExtResource( 2 )]

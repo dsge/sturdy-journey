@@ -2,19 +2,21 @@
 
 importer="texture"
 type="StreamTexture2D"
-path="res://.import/albedo.jpg-56f434bcd471156f50dd169d4577a3c7.stex"
+path.s3tc="res://.import/albedo.jpg-56f434bcd471156f50dd169d4577a3c7.s3tc.stex"
+path.etc2="res://.import/albedo.jpg-56f434bcd471156f50dd169d4577a3c7.etc2.stex"
 metadata={
-"vram_texture": false
+"imported_formats": [ "s3tc", "etc2" ],
+"vram_texture": true
 }
 
 [deps]
 
 source_file="res://static/tiles-granite/albedo.jpg"
-dest_files=[ "res://.import/albedo.jpg-56f434bcd471156f50dd169d4577a3c7.stex" ]
+dest_files=[ "res://.import/albedo.jpg-56f434bcd471156f50dd169d4577a3c7.s3tc.stex", "res://.import/albedo.jpg-56f434bcd471156f50dd169d4577a3c7.etc2.stex" ]
 
 [params]
 
-compress/mode=0
+compress/mode=2
 compress/lossy_quality=0.7
 compress/hdr_compression=1
 compress/bptc_ldr=0
